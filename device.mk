@@ -82,12 +82,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.wfc_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1
 
-# Gcam
-$(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
-
-# Lawnchair Launcher
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages

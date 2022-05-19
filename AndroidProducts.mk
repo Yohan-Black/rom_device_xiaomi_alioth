@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_alioth.mk
+    $(LOCAL_DIR)/stag_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_alioth-user \
-    xtended_alioth-userdebug \
-    xtended_alioth-eng
+    stag_alioth-user \
+    stag_alioth-userdebug \
+    stag_alioth-eng
