@@ -86,6 +86,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
