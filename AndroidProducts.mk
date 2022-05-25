@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_alioth.mk
+    $(LOCAL_DIR)/pixys_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_alioth-user \
-    stag_alioth-userdebug \
-    stag_alioth-eng
+    pixys_alioth-user \
+    pixys_alioth-userdebug \
+    pixys_alioth-eng
