@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/name_alioth.mk
+    $(LOCAL_DIR)/aosp_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    name_alioth-user \
-    name_alioth-userdebug \
-    name_alioth-eng
+    aosp_alioth-user \
+    aosp_alioth-userdebug \
+    aosp_alioth-eng
