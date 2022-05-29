@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common stuff.
+# Inherit some common Namaless stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from alioth device
@@ -24,11 +24,9 @@ PRODUCT_MODEL := POCO F3
 # Official
 CUSTOM_BUILD_TYPE := Official
 
-WITH_GAPPS=true
-
 TARGET_SUPPORTS_QUICK_TAP := true
 
-TARGET_SUPPORTS_NOW_PLAYING ?= true
+TARGET_SUPPORTS_NOW_PLAYING := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
